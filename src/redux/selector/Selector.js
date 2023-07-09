@@ -37,10 +37,6 @@ const dashboardSelector = (state) => state.dashboardReducer;
 const userDetailSelector = (state) => state.userDetailReducer;
 const winningHistorySelector = (state) => state.winningHistoryReducer;
 const newUserSelector = (state) => state.newUserReducer;
-const userProfileSelector = (state) => state.userProfileReducer;
-const gamePlayedHistorySelector = (state) => state.gamePlayedHistoryReducer;
-const userWinningHistorySelector = (state) => state.userWinningHistoryReducer;
-const rejectedRequestSelector = (state) => state.rejectedRequestReducer;
 
 const withdrawalRequestApproveSelector = (state) =>
   state.approveWithdrawalRequest;
@@ -242,31 +238,6 @@ export const newUserTodos = createSelector(newUserSelector, (data) => {
 
 export const winningRupessTodos = createSelector(
   winningRuppesSelector,
-  (data) => {
-    return data;
-  }
-);
-
-export const userProfileTodos = createSelector(userProfileSelector, (data) => {
-  return data;
-});
-
-export const gamePalyedHistoryTodos = createSelector(
-  gamePlayedHistorySelector,
-  (data) => {
-    return data;
-  }
-);
-
-export const userWinningHistoryTodos = createSelector(
-  userWinningHistorySelector,
-  (data) => {
-    return data;
-  }
-);
-
-export const rejectedRequestTodos = createSelector(
-  rejectedRequestSelector,
   (data) => {
     return data;
   }

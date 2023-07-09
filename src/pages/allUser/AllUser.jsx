@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import AllUserDetail from "../../componets/allUserDetail/AllUserDetail";
 import "./styles.scss";
 import { Input, Tabs } from "antd";
@@ -29,6 +29,9 @@ const AllUser = () => {
       children: <PartnerUser />,
     },
   ];
+
+
+
   return (
     <div className="alluser-div">
       <div className="heading-all-user">
@@ -39,6 +42,7 @@ const AllUser = () => {
         <Input placeholder="search...." onChange={searchHandleChange} />
       </div>
       <Tabs onChange={onChange} type="card" items={tabsItem} />
+
     </div>
   );
 };

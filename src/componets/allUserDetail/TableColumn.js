@@ -22,9 +22,9 @@ export const getcolumns = (serchvalue) => [
     key: "WalletAmount",
   },
 
-  // {
-  //   title: "Action",
-  //   dataIndex: "Action",
-  //   key: "Action",
-  // },
+  {
+    title: "Action",
+    dataIndex: "Action",
+    key: "Action",
+  },
 ];

@@ -14,7 +14,6 @@ import {
   dashboard,
   marketAnalysisPage,
   paidMoney,
-  rejectedRequest,
   signIn,
   transaction,
   updateResult,
@@ -44,7 +43,6 @@ import SubAdminList from "./pages/subAdminList";
 import UpiDetail from "./pages/upiDetail";
 import Dashboard from "./pages/dashboard";
 import UserProfile from "./pages/userProfile";
-import RejectedRequest from "./pages/rejectedRequest";
 
 const AppRouter = () => {
   const nav = useNavigate();
@@ -80,8 +78,6 @@ const AppRouter = () => {
           />
           <Route path="/user-deatil/:user" element={<UserProfile com={2} />} />
           <Route path={updateResult} element={<UpdateResult />} />
-          <Route path={rejectedRequest} element={<RejectedRequest />} />
-
           <Route path={updateTime} element={<UpdateTime />} />
           <Route path={updateResultTime} element={<UpdateResultTime />} />
           <Route path={addGame} element={<AddGame />} />

@@ -1,13 +1,12 @@
 import { Table } from "antd";
 import React from "react";
-import { Link } from "react-router-dom";
 
 const UserDeatilList = ({ data, gameValue }) => {
   const userList = data[gameValue];
   const dataSource = userList.map((res, index) => {
     return {
       key: res.User + res.Name + index,
-      name: <Link to={`/user-deatil/${res?.User}`}>{res?.Name}</Link>,
+      name: res?.Name,
       Number: res.User,
     };
   });

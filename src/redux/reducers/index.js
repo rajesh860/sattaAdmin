@@ -39,10 +39,6 @@ import { userDetailReducer } from "./userDetailReducer";
 import { winningHistoryReducer } from "./winningHistoryReducer";
 import { newUserReducer } from "./newUserReducer";
 import { winningRupessReducer } from "./winningRupessReducer";
-import { userProfileReducer } from "./userProfileReducer";
-import { gamePlayedHistoryReducer } from "./gamePlayedHistoryReducer";
-import { userWinningHistoryReducer } from "./userWinningHistoryReducer";
-import { rejectedRequestReducer } from "./rejectedRequestReducer";
 // import { withdrawalReducer } from "./withdrawalReducer/WithdrawalReducer";
 // import { withdrawalRequestReducer } from "./withdrawalRequestReducer/WithdrawalRequestReducer";
 
@@ -88,10 +84,5 @@ export const rootReducer = combineReducers({
   winningHistoryReducer: winningHistoryReducer,
   newUserReducer: newUserReducer,
   winningRupessReducer: winningRupessReducer,
-  userProfileReducer: userProfileReducer,
-  gamePlayedHistoryReducer: gamePlayedHistoryReducer,
-  userWinningHistoryReducer: userWinningHistoryReducer,
-  rejectedRequestReducer: rejectedRequestReducer,
-
   // withdrawalRequest: withdrawalRequestReducer,
 });

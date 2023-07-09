@@ -55,7 +55,7 @@ const WithdrawalPage = () => {
     return {
       key: res.Date + res.Time + res.User,
       User: res.User,
-      Time: res.Time,
+      Time: res.time,
       Status: res.Status,
       Date: res.Date,
       amount: res.Amount,

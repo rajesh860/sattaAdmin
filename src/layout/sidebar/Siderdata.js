@@ -10,7 +10,6 @@ import {
   dashboard,
   marketAnalysisPage,
   paidMoney,
-  rejectedRequest,
   transaction,
   updateResult,
   updateResultTime,
@@ -62,16 +61,6 @@ export const item = [
     key: "45",
     children: [
       {
-        label: "Main Wallet",
-        key: "676",
-        children: [
-          {
-            label: "Refund",
-            key: "676",
-          },
-        ],
-      },
-      {
         label: <Link to={withdrawal}>1. Withdrawal Request</Link>,
         key: "6",
         // icon: <MailOutlined />,
@@ -93,10 +82,6 @@ export const item = [
       {
         label: <Link to={all_UPI_Detail}>5. All UPI Detail</Link>,
         key: "192",
-      },
-      {
-        label: <Link to={rejectedRequest}>6. Rejected Request</Link>,
-        key: "129",
       },
     ],
   },
@@ -134,7 +119,7 @@ export const item = [
               modalRef6();
             }}
           >
-            2. Add Subscription Plan
+           2. Add Subscription Plan
           </p>
         ),
         key: "18",

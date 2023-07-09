@@ -18,4 +18,3 @@ export const all_Handling = "/all-handling";
 export const all_Sub_Admin = "/all-sub-admin";
 export const all_UPI_Detail = "/all-Upi";
 export const dashboard = "/dashboard";
-export const rejectedRequest = "/rejected-request";
