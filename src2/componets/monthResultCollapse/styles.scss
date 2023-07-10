@@ -1,0 +1,10 @@
+.row-conatiner {
+  display: flex;
+  align-items: center;
+  .left-col-row {
+    width: 100px;
+  }
+  .right-col-row {
+    width: 100%;
+  }
+}

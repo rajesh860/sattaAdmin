@@ -1,0 +1,24 @@
+.alluser-div {
+  margin: 10px;
+  .heading-all-user {
+    display: flex;
+    justify-content: space-between;
+    h1 {
+      font-size: 22px;
+    }
+    p {
+      background-color: orange;
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      color: white;
+    }
+  }
+  .search-all-user {
+    margin-bottom: 20px;
+    input {
+      width: 300px;
+    }
+  }
+}

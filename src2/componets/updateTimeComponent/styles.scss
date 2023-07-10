@@ -1,0 +1,14 @@
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .input-cls {
+    width: 200px;
+    height: 30px;
+  }
+}
+.botom {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
